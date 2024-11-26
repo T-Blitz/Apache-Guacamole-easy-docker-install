@@ -1,7 +1,8 @@
 # Apache-Guacamole-easy-docker-install
 ### Finally an easy way to install Apache guacamole using docker. <br />
-Thanks to [Sonoran Tech](https://www.youtube.com/@SonoranTech-hf5hf) for the base of my docker compose and comand list.
+"Apache Guacamole is a clientless remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH." <br /> [--Apache Guacamole™](https://guacamole.apache.org)
 
+*Thanks to [Sonoran Tech](https://www.youtube.com/@SonoranTech-hf5hf) for the base of my docker compose and comand list.*
 
 ## Install Docker
 First wee need to install docker on the host system of your choosing. Please follow the guide from the offical side [here](https://docs.docker.com/engine/install/).<br />
