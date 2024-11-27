@@ -21,6 +21,7 @@ then CD in to the directory:
 ```
 cd Apache-Guacamole-easy-docker-install/
 ```
+*Make sure to change the mysql root password inside the compose to some secure and to remember it*<br /> 
 Now pull every container and start them with:
 ```
 sudo docker compose up -d
@@ -97,7 +98,7 @@ After the file has been executed, we can exit the container.
 Best would be to restart all containers using:
 
 ```
-sudo docker compose restart -d
+sudo docker compose restart
 ```
 Finally, you should be able to access the Apache Guacamole login screen. <br />
 The login screen can be found by entering your host's local IP, port 8080, and then "/guacamole/#/".
