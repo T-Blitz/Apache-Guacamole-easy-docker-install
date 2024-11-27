@@ -10,8 +10,18 @@ First wee need to install docker on the host system of your choosing. Please fol
 Portainer is optional.
 
 ## Ready the Docker-Compose and pull every container
-Download or copy the Guacamole docker-compose to the file directory of your choosing. then:
 
+
+Download or copy the Guacamole docker-compose to the file directory of your choosing. <br /> 
+You can also just use git to clone the whole repo at once:
+```
+git clone https://github.com/T-Blitz/Apache-Guacamole-easy-docker-install.git
+```
+then CD in to the directory:
+```
+cd Apache-Guacamole-easy-docker-install/
+```
+Now pull every container and start them with:
 ```
 sudo docker compose up -d
 ```
